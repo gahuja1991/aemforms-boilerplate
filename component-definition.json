@@ -659,6 +659,21 @@
               }
             }
           }
+        },
+        {
+          "title": "SSN",
+          "id": "ssn",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/fd/components/form/textinput/v1/textinput",
+                "template": {
+                  "name": "SSN",
+                  "model": "ssn"
+                }
+              }
+            }
+          }
         }
       ]
     }
