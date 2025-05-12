@@ -548,6 +548,22 @@
           }
         },
         {
+          "title": "SSN Social Security Number",
+          "id": "ssn",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/fd/components/form/textinput/v1/textinput",
+                "template": {
+                  "jcr:title": "SSN Social Security Number",
+                  "fieldType": "text-input",
+                  "fd:viewType": "ssn"
+                }
+              }
+            }
+          }
+        },
+        {
           "title": "Terms and conditions",
           "id": "tnc",
           "plugins": {
@@ -655,21 +671,6 @@
                 "template": {
                   "name": "Hero",
                   "model": "hero"
-                }
-              }
-            }
-          }
-        },
-        {
-          "title": "SSN",
-          "id": "ssn",
-          "plugins": {
-            "xwalk": {
-              "page": {
-                "resourceType": "core/fd/components/form/textinput/v1/textinput",
-                "template": {
-                  "name": "SSN",
-                  "model": "ssn"
                 }
               }
             }
